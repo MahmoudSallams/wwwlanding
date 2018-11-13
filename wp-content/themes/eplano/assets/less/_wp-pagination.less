@@ -1,0 +1,125 @@
+
+/* pagination */
+ul.page-numbers{
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 1.8rem;
+  li {
+    background: @white-color;
+    border-radius: 50%;
+    display: inline-block;
+    margin: .15rem;
+    a, span {
+      text-align: center;
+      color: @black-color;
+      -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+      -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+      display: block;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      line-height: 5rem;
+      font-weight: 700;
+    }
+
+    .current {
+      background: @brand-color;
+      color: @white-color;
+    }
+    &:hover {
+      background: @brand-color;
+      color: @white-color;
+      a, span {
+        color: @white-color;
+        b {
+          display: block;
+          -webkit-animation-name: zoomIn;
+          animation-name: zoomIn;
+          -webkit-transform-origin: center;
+          transform-origin: center;
+          animation-duration: 500ms;
+          animation-timing-function: linear;
+        }
+      }
+    }
+  }
+}
+
+
+.page-links {
+  padding-top: 2.6rem;
+  display: block;
+  a, span  {
+    text-align: center;
+    color: @black-color;
+    -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 5rem;
+    font-weight: 700;
+    margin-right: .5rem;
+    .transition-duration(@duration: 0.3s);
+    &:hover, &:focus, &:active {
+      background: @brand-color;
+      color: @white-color;
+    }
+  }
+  a span {
+    background: @white-color;
+    color: @brand-color;
+  }
+  span, .current {
+    background: @brand-color;
+    color: @white-color;
+  }
+
+
+  .page-links-title {
+    background: transparent;
+    box-shadow: none;
+    margin-right: 1rem;
+    color: @black-color;
+    font-family: @csi-heading-font;
+    text-transform: uppercase;
+    &:hover {
+      background: transparent;
+      color: inherit;
+    }
+  }
+}
+
+
+.breadcrumb {
+  background: transparent;
+  padding: 0;
+  text-align: center;
+  margin-top: 1.5rem;
+  li {
+    font-family: @csi-heading-font;
+    .font-size(16);
+    font-weight: 400;
+    letter-spacing: .05rem;
+    //text-transform: uppercase;
+    a {
+      color: inherit;
+      font-size: inherit;
+      font-weight: inherit;
+    }
+  }
+  .active {
+    color: @brand-highlight;
+    //text-transform: none;
+  }
+}
+
+.breadcrumb>li+li:before {
+  padding: 0 5px;
+  color: @white-color;
+  content: "/\00a0";
+  opacity: .7;
+}

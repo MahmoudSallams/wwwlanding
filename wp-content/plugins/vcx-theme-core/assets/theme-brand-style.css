@@ -1,0 +1,799 @@
+a {
+  color: red;
+}
+
+a:focus,
+a:hover,
+a.active {
+  text-decoration: none;
+  color: red;
+  outline: 0;
+}
+
+h3 a:hover,
+.h3 a:hover {
+  color: red;
+}
+
+h4 a:hover,
+.h4 a:hover {
+  color: red;
+}
+
+blockquote:after {
+  color: red;
+
+}
+.csi-social li:hover a {
+  background: green;
+}
+
+.csi-post-wrapper .csi-single-post form input[type='submit'] {
+  background: red;
+}
+.csi-post-wrapper .csi-single-post form input[type='submit']:hover {
+  background: red;
+}
+
+.widget.widget_rss ul li a {
+  color: red;
+}
+
+.csi-heading .subheading {
+  color: red;
+}
+
+.csi-subheading {
+  color: red;
+}
+
+.csi-btn {
+  background: red;
+}
+.csi-btn:hover {
+  background: #fff;
+}
+
+.csi-btn-highlight {
+  background: green;
+}
+.csi-btn-brand2 {
+  background: red;
+}
+.csi-header .csi-navbar .csi-nav li a:hover {
+  color: red;
+}
+
+.csi-header .csi-navbar .csi-nav .csi-btn {
+  background: green;
+}
+
+.csi-header .csi-navbar .csi-nav .csi-btn:hover,
+.csi-header .csi-navbar .csi-nav .csi-btn:focus,
+.csi-header .csi-navbar .csi-nav .csi-btn:active {
+  background: red;
+}
+
+.csi-header .csi-navbar .csi-nav .active a {
+  color: red;
+}
+
+
+.csi-header .csi-navbar .csi-nav .dropdown-menu {
+  background: red;
+  border: 0;
+  border-radius: 0;
+}
+
+.csi-header .csi-header-bottom-brand-tp {
+  background: red;
+}
+
+.csi-header .csi-header-bottom-brand-tp .csi-navbar .csi-nav .active a {
+  color: green;
+}
+
+.csi-header .csi-header-bottom-brand-container .csi-navbar {
+  background: red;
+}
+.csi-header .csi-header-bottom-brand-container .csi-navbar .csi-nav {
+  margin-top: 3rem;
+}
+.csi-header .csi-header-bottom-brand-container .csi-navbar .csi-nav .active a {
+  color: green;
+}
+
+
+.csi-header .csi-header-bottom-normal .csi-navbar .csi-nav .active a {
+  color: red;
+}
+
+.csi-header .menu-onscroll .csi-toggle {
+  color: red;
+}
+
+
+.csi-slider .owl-controls .owl-nav [class*=owl-] {
+  background: red;
+}
+.csi-slider .owl-controls .owl-nav [class*=owl-]:hover {
+  color: red;
+}
+.csi-slider .owl-prev:before,
+.csi-slider .owl-next:before {
+  color: red;
+}
+.csi-slider .owl-theme .owl-controls .owl-prev i,
+.csi-slider .owl-theme .owl-controls .owl-next i {
+  font-size: 26px;
+}
+.csi-slider .owl-theme .owl-controls .owl-prev:hover,
+.csi-slider .owl-theme .owl-controls .owl-next:hover {
+  background: green;
+}
+.csi-about .csi-heading .subheading {
+  color: red;
+}
+.csi-single-service .text-area .title {
+  margin-top: 0;
+}
+.csi-single-service .text-area .title a {
+  color: inherit;
+}
+.csi-single-service-white {
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+}
+.csi-single-service-white .icon i {
+  color: red;
+}
+
+.csi-single-speaker figure figcaption {
+  background: red;
+}
+.csi-single-speaker figure figcaption a {
+  color: red;
+}
+.csi-single-speaker .social-group a:hover {
+  color: green;
+}
+.csi-single-speaker .speaker-info .subtitle {
+  color: red;
+}
+.csi-single-speaker:hover {
+  background: red;
+}
+.csi-single-speaker2 figure figcaption a {
+  color: red;
+}
+.csi-single-speaker2 .social-group a {
+  color: red;
+}
+.csi-single-speaker2 .social-group a:hover {
+  color: green;
+}
+.csi-single-speaker2 .speaker-info .subtitle {
+
+  color: red;
+}
+.csi-tab .nav-pills {
+  background: red;
+}
+.csi-tab .nav-pills .active:before {
+  background: green;
+
+}
+.csi-panel .csi-single-schedule .author img {
+  border: 2px solid red;
+}
+.csi-panel .csi-single-schedule .schedule-info .time span {
+  color: green;
+}
+.csi-panel .csi-single-schedule .schedule-info .author-info span {
+  color: red;
+}
+.csi-panel .panel-body .location strong {
+  font-weight: 700;
+  color: red;
+}
+.csi-panel .panel-body .location span {
+  color: red;
+}
+.sponsors-area .single-border-style:hover {
+  background: red;
+  background: rgba(156, 53, 155, 0.1);
+}
+.sponsors-area .single-background-style:hover {
+  border: 5px solid red;
+}
+
+.csi-registration-area .csi-single-registration .single-top .price {
+  color: green;
+}
+.csi-registration-area .csi-single-registration .single-bottom ul li .fa-times {
+  color: #b71c1c;
+}
+.csi-registration-area .csi-single-registration .single-bottom ul li .fa-check {
+  color: red;
+}
+
+.csi-registration-area .csi-single-registration:hover .single-top .title {
+  color: red;
+}
+.csi-registration-area .csi-single-registration:hover .single-top .title a {
+  color: inherit;
+}
+.csi-registration-area .csi-single-registration:hover .single-top .price {
+  color: green;
+}
+
+.csi-registration-area .recommended {
+  background: red;
+}
+.csi-registration-area .recommended .csi-single-registration-inner {
+  padding: 9rem 2rem;
+}
+
+.csi-registration-area .recommended .single-top .title a {
+  color: inherit;
+}
+.csi-registration-area .recommended .single-top .price {
+  color: green;
+}
+
+.csi-registration-area .recommended .single-bottom ul li .fa-times {
+  color: #b71c1c;
+}
+.csi-registration-area .recommended .single-bottom ul li .fa-check {
+  color: red;
+}
+.csi-registration-area .recommended .csi-btn {
+  background: green;
+}
+.csi-registration-area .recommended .csi-btn:hover {
+  color: red;
+}
+.csi-registration-area-colorful .csi-single-registration:nth-child(1) {
+  background: red;
+}
+
+.csi-registration-area-colorful .csi-single-registration:nth-child(1) .single-top .price {
+  color: green;
+}
+.csi-registration-area-colorful .csi-single-registration:nth-child(1) .single-bottom ul li .fa-times {
+  color: #b71c1c;
+}
+.csi-registration-area-colorful .csi-single-registration:nth-child(1) .single-bottom ul li .fa-check {
+  color: green;
+}
+.csi-registration-area-colorful .csi-single-registration:nth-child(1) .csi-btn {
+  background: red;
+}
+.csi-registration-area-colorful .csi-single-registration:nth-child(1) .csi-btn:hover {
+  color: red;
+}
+.csi-registration-area-colorful .csi-single-registration:nth-child(2) {
+  background: red;
+}
+
+.csi-registration-area-colorful .csi-single-registration:nth-child(2) .single-bottom ul li .fa-times {
+  color: #b71c1c;
+}
+.csi-registration-area-colorful .csi-single-registration:nth-child(2) .single-bottom ul li .fa-check {
+  color: green;
+}
+.csi-registration-area-colorful .csi-single-registration:nth-child(2) .csi-btn {
+  background: red;
+}
+.csi-registration-area-colorful .csi-single-registration:nth-child(2) .csi-btn:hover {
+  color: red;
+}
+.csi-registration-area-colorful .csi-single-registration:nth-child(3) {
+  background: green;
+}
+
+.csi-registration-area-colorful .csi-single-registration:nth-child(3) .single-top .price {
+  color: red;
+}
+
+.csi-registration-area-colorful .csi-single-registration:nth-child(3) .single-bottom ul li .fa-times {
+  color: #b71c1c;
+}
+.csi-registration-area-colorful .csi-single-registration:nth-child(3) .single-bottom ul li .fa-check {
+  color: red;
+}
+.csi-registration-area-colorful .csi-single-registration:nth-child(3) .csi-btn {
+  background: green;
+}
+.csi-registration-area-colorful .csi-single-registration:nth-child(3) .csi-btn:hover {
+  color: red;
+}
+.csi-registration-area-colorful .csi-single-registration:nth-child(4) {
+  background: red;
+}
+.csi-registration-area-colorful .csi-single-registration:nth-child(4) .single-top .price {
+  color: green;
+}
+
+.csi-registration-area-colorful .csi-single-registration:nth-child(4) .single-bottom ul li .fa-times {
+  color: #b71c1c;
+}
+.csi-registration-area-colorful .csi-single-registration:nth-child(4) .single-bottom ul li .fa-check {
+  color: green;
+}
+.csi-registration-area-colorful .csi-single-registration:nth-child(4) .csi-btn {
+  background: red;
+}
+.csi-registration-area-colorful .csi-single-registration:nth-child(4) .csi-btn:hover {
+  color: red;
+}
+
+.csi-registration-area-colorful .csi-single-registration:hover .single-top .title {
+  color: red;
+}
+
+.csi-registration-area-colorful .csi-single-registration:hover .single-top .price {
+  color: green;
+}
+
+.csi-registration-area-simple .csi-single-registration:hover {
+  border: 8px solid green;
+}
+.csi-registration-area-simple .csi-single-registration:hover .single-top .title {
+  color: red;
+}
+.csi-registration-area-simple .csi-single-registration:hover .single-top .title a {
+  color: inherit;
+}
+.csi-registration-area-simple .csi-single-registration:hover .single-top .price {
+  color: green;
+}
+.csi-registration-area-simple .recommended {
+  border: 8px solid red;
+}
+
+.csi-registration-area-simple .recommended .single-top .title {
+  color: red;
+}
+.vcx-registration-box input.wpcf7-form-control:focus,
+.vcx-registration-box input.form-control:focus {
+  color: red;
+}
+.vcx-registration-box select.wpcf7-select option,
+.vcx-registration-box select.lgx-select option {
+  background: red;
+}
+.vcx-registration-box .wpcf7-form-control.wpcf7-submit,
+.vcx-registration-box .wpcf7-form-control.lgx-submit,
+.vcx-registration-box .wpcf7-submit,
+.vcx-registration-box .lgx-submit {
+  width: 100%;
+}
+.vcx-registration-box .wpcf7-form-control.wpcf7-submit:hover,
+.vcx-registration-box .wpcf7-form-control.lgx-submit:hover,
+.vcx-registration-box .wpcf7-submit:hover,
+.vcx-registration-box .lgx-submit:hover {
+  background: red;
+}
+.csi-video-area figure figcaption .video-icon:hover i {
+  color: red;
+}
+.csi-single-news figure figcaption .date {
+  background: green;
+}
+.category-sticky .csi-single-news .featured-post {
+  background: red;
+}
+.csi-single-gallery figure figcaption {
+  background: red;
+}
+
+.csi-single-gallery figure figcaption .csi-hover-link .csi-vertical a:hover {
+  color: green;
+}
+.csi-subscribe-form .form-control:hover,
+.csi-subscribe-form .form-control:focus {
+  border: 2px solid red;
+}
+.csi-subscribe-form .csi-submit {
+  background: red;
+}
+.csi-subscribe-form .csi-submit:hover {
+  background: green;
+}
+.csi-countdown-area .csi-countdown .csi-days {
+  color: red;
+}
+.csi-countdown-area .csi-countdown .csi-hr {
+  color: red;
+}
+.csi-countdown-area .csi-countdown .csi-min {
+  color: red;
+}
+.csi-countdown-area .csi-countdown .csi-sec {
+  color: green;
+}
+.csi-countdown-area-circle_right .csi-countdown .csi-days,
+.csi-countdown-area-circle_left .csi-countdown .csi-days,
+.csi-countdown-area-circle_center .csi-countdown .csi-days,
+.csi-countdown-area-squre_left .csi-countdown .csi-days,
+.csi-countdown-area-squre_right .csi-countdown .csi-days,
+.csi-countdown-area-squre_center .csi-countdown .csi-days {
+  border: 3px solid red;
+}
+.csi-countdown-area-circle_right .csi-countdown .csi-hr,
+.csi-countdown-area-circle_left .csi-countdown .csi-hr,
+.csi-countdown-area-circle_center .csi-countdown .csi-hr,
+.csi-countdown-area-squre_left .csi-countdown .csi-hr,
+.csi-countdown-area-squre_right .csi-countdown .csi-hr,
+.csi-countdown-area-squre_center .csi-countdown .csi-hr {
+  border: 3px solid red;
+}
+.csi-countdown-area-circle_right .csi-countdown .csi-min,
+.csi-countdown-area-circle_left .csi-countdown .csi-min,
+.csi-countdown-area-circle_center .csi-countdown .csi-min,
+.csi-countdown-area-squre_left .csi-countdown .csi-min,
+.csi-countdown-area-squre_right .csi-countdown .csi-min,
+.csi-countdown-area-squre_center .csi-countdown .csi-min {
+  border: 3px solid red;
+}
+.csi-countdown-area-circle_right .csi-countdown .csi-sec,
+.csi-countdown-area-circle_left .csi-countdown .csi-sec,
+.csi-countdown-area-circle_center .csi-countdown .csi-sec,
+.csi-countdown-area-squre_left .csi-countdown .csi-sec,
+.csi-countdown-area-squre_right .csi-countdown .csi-sec,
+.csi-countdown-area-squre_center .csi-countdown .csi-sec {
+  border: 3px solid green;
+}
+
+.csi-countdown-area-squre_right .csi-countdown .csi-days,
+.csi-countdown-area-squre_left .csi-countdown .csi-days,
+.csi-countdown-area-squre_center .csi-countdown .csi-days {
+  background: red;
+}
+
+.csi-countdown-area-squre_right .csi-countdown .csi-min,
+.csi-countdown-area-squre_left .csi-countdown .csi-min,
+.csi-countdown-area-squre_center .csi-countdown .csi-min {
+  background: red;
+}
+.csi-countdown-area-squre_right .csi-countdown .csi-sec,
+.csi-countdown-area-squre_left .csi-countdown .csi-sec,
+.csi-countdown-area-squre_center .csi-countdown .csi-sec {
+  background: green;
+}
+.csi-countdown-style-about.csi-countdown-area-circle_right .csi-countdown .csi-days,
+.csi-countdown-style-about.csi-countdown-area-circle_left .csi-countdown .csi-days,
+.csi-countdown-style-about.csi-countdown-area-circle_center .csi-countdown .csi-days {
+  background: red;
+}
+.csi-countdown-style-about.csi-countdown-area-circle_right .csi-countdown .csi-hr,
+.csi-countdown-style-about.csi-countdown-area-circle_left .csi-countdown .csi-hr,
+.csi-countdown-style-about.csi-countdown-area-circle_center .csi-countdown .csi-hr {
+  background: rgba(255, 0, 90, 0.8);
+}
+.csi-countdown-style-about.csi-countdown-area-circle_right .csi-countdown .csi-min,
+.csi-countdown-style-about.csi-countdown-area-circle_left .csi-countdown .csi-min,
+.csi-countdown-style-about.csi-countdown-area-circle_center .csi-countdown .csi-min {
+  background: rgba(137, 93, 255, 0.8);
+}
+.csi-countdown-style-about.csi-countdown-area-circle_right .csi-countdown .csi-sec,
+.csi-countdown-style-about.csi-countdown-area-circle_left .csi-countdown .csi-sec,
+.csi-countdown-style-about.csi-countdown-area-circle_center .csi-countdown .csi-sec {
+  background: rgba(247, 178, 5, 0.8);
+}
+
+.csi-countdowns3 .csi-inner {
+  background: rgba(247, 178, 5, 0.8);
+}
+.csi-countdown-area3 #csi-countdown .csi-days {
+  color: #fff200;
+}
+.csi-countdown-area3 #csi-countdown .csi-hr {
+  color: #ff8a00;
+}
+.csi-countdown-area3 #csi-countdown .csi-min {
+  color: #00b9ff;
+}
+.csi-countdown-area3 #csi-countdown .csi-sec {
+  color: #8dc63f;
+}
+
+.csi-footer-single .date {
+  color: red;
+
+}
+
+.csi-footer-single .map-link {
+  color: green;
+}
+.csi-footer-single .map-link:hover {
+  color: red;
+}
+
+.csi-social li:hover {
+  color: red;
+}
+.csi-testimonials .csi-review-slider .item .csi-client-image img {
+  display: inline-block;
+}
+.csi-testimonials .csi-review-slider .item .csi-client-image figcaption {
+  color: red;
+}
+.csi-testimonials .csi-review-slider .item .csi-client-image figcaption i {
+  color: red;
+}
+
+.csi-testimonials .csi-review-slider .item .csi-client-image:hover figcaption i {
+  color: red;
+}
+
+.csi-testimonials .csi-review-slider .owl-controls .owl-nav [class*=owl-] i {
+  color: red;
+}
+.csi-testimonials .csi-review-slider .owl-controls .owl-nav [class*=owl-]:hover {
+  background-color: red;
+}
+.csi-testimonials .csi-review-slider .owl-controls .owl-nav [class*=owl-]:hover i {
+  color: #fff;
+}
+.csi-testimonials .csi-review-slider .owl-controls .owl-nav .owl-prev,
+.csi-testimonials .csi-review-slider .owl-controls .owl-nav .owl-next {
+  color: green;
+}
+
+.csi-testimonials .csi-review-slider .owl-controls .owl-nav .owl-prev:hover,
+.csi-testimonials .csi-review-slider .owl-controls .owl-nav .owl-next:hover {
+  background: red;
+}
+
+.csi-testimonials .csi-review-slider2 .item .csi-client-image figcaption,
+.csi-testimonials .csi-review-slider3 .item .csi-client-image figcaption {
+  color: red;
+}
+.csi-testimonials .csi-review-slider2 .item .csi-client-image figcaption i,
+.csi-testimonials .csi-review-slider3 .item .csi-client-image figcaption i {
+  color: red;
+  font-size: 26px;
+  line-height: 46px;
+}
+.csi-testimonials .csi-review-slider2 .item .csi-client-image:hover img,
+.csi-testimonials .csi-review-slider3 .item .csi-client-image:hover img {
+  border-color: #fff;
+}
+.csi-testimonials .csi-review-slider2 .item .csi-client-image:hover figcaption,
+.csi-testimonials .csi-review-slider3 .item .csi-client-image:hover figcaption {
+  background-color: #fff;
+}
+.csi-testimonials .csi-review-slider2 .item .csi-client-image:hover figcaption i,
+.csi-testimonials .csi-review-slider3 .item .csi-client-image:hover figcaption i {
+  color: red;
+}
+
+.csi-testimonials .csi-review-slider2 .item .csi-client-name span,
+.csi-testimonials .csi-review-slider3 .item .csi-client-name span {
+  color: red;
+}
+.csi-testimonials .csi-review-slider2 .item:hover,
+.csi-testimonials .csi-review-slider3 .item:hover {
+  background: red;
+  border-radius: 8px;
+}
+
+.csi-testimonials .csi-review-slider2 .owl-controls .owl-nav [class*=owl-] i,
+.csi-testimonials .csi-review-slider3 .owl-controls .owl-nav [class*=owl-] i {
+  font-size: 40px;
+  color: red;
+  font-weight: 400;
+}
+.csi-testimonials .csi-review-slider2 .owl-controls .owl-nav [class*=owl-]:hover,
+.csi-testimonials .csi-review-slider3 .owl-controls .owl-nav [class*=owl-]:hover {
+  background-color: red;
+}
+
+.csi-testimonials .csi-review-slider2 .owl-controls .owl-nav .owl-prev,
+.csi-testimonials .csi-review-slider3 .owl-controls .owl-nav .owl-prev,
+.csi-testimonials .csi-review-slider2 .owl-controls .owl-nav .owl-next,
+.csi-testimonials .csi-review-slider3 .owl-controls .owl-nav .owl-next {
+  color: green;
+}
+
+.csi-testimonials .csi-review-slider2 .owl-controls .owl-nav .owl-prev:hover,
+.csi-testimonials .csi-review-slider3 .owl-controls .owl-nav .owl-prev:hover,
+.csi-testimonials .csi-review-slider2 .owl-controls .owl-nav .owl-next:hover,
+.csi-testimonials .csi-review-slider3 .owl-controls .owl-nav .owl-next:hover {
+  background: red;
+}
+
+#vcx-particle-section .heading {
+  color: green;
+}
+
+.csi-banner-content .csi-title b {
+  color: green;
+  font-weight: 800;
+}
+.csi-banner-content .csi-title i {
+  color: red;
+}
+
+.csi-banner-content .csi-title2 b {
+  color: green;
+}
+.csi-banner-content .csi-title2 i {
+  color: red;
+}
+
+.csi-banner-content .date b {
+  color: green;
+}
+
+
+article footer #comments .comment-reply-link {
+  border: 1px solid red;
+  color: red;
+}
+article footer #comments .comment-reply-link:hover {
+  background: red;
+  border: 1px solid red;
+
+}
+article footer #comments .edit-link {
+
+  color: red;
+}
+article footer #comments .edit-link a {
+  border: 1px solid red;
+}
+article footer #comments .edit-link:hover a {
+  background: red;
+
+}
+
+article footer #comments #respond .comment-notes .required {
+  color: red;
+}
+
+article footer #comments #respond form label .required {
+  color: red;
+}
+
+article footer #comments input:hover,
+article footer #comments textarea:hover,
+article footer #comments input:active,
+article footer #comments textarea:active,
+article footer #comments input:focus,
+article footer #comments textarea:focus {
+  border: 1px solid red !important;
+}
+article footer #comments .form-submit {
+  background: red;
+
+}
+
+article footer #comments .form-submit:hover {
+  background: red;
+
+}
+
+.post-password-form input[type=submit] {
+  background: red;
+}
+.post-password-form input[type=submit]:hover {
+  background: red;
+}
+
+.wpcf7-submit {
+  background: red;
+}
+.wpcf7-submit:hover {
+  background: red;
+  color: #fff;
+}
+
+.csi-contact-box .address .title {
+  color: red;
+  font-weight: 400;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.csi-box .csi-icon i {
+  font-size: 35px;
+  color: red;
+  line-height: 43px;
+}
+.csi-nav-pills-area .csi-nav-pills li.active > a,
+.csi-nav-pills-area .csi-nav-pills li.active > a:focus,
+.csi-nav-pills-area .csi-nav-pills li.active > a:hover {
+  color: red;
+  border: 2px solid red;
+}
+
+.csi-tab-content .tab-pane .csi-single-tab .menu-content .csi-info .title-area .price {
+  color: red;
+}
+
+.csi-tab-content .tab-pane .csi-single-tab:hover .menu-content .csi-info .title-area {
+  background: red;
+}
+
+ul.page-numbers li .current {
+  color: red;
+}
+ul.page-numbers li:hover {
+  background: red;
+}
+ul.page-numbers li:hover a,
+ul.page-numbers li:hover span {
+  color: #fff;
+}
+
+.page-links span {
+  color: red;
+}
+.breadcrumb .active {
+  color: red;
+}
+
+.form-control:hover,
+.form-control:focus {
+  border: 2px solid red;
+}
+
+.csi-single-item .csi-singleitem-content .subtitle {
+  color: red;
+}
+
+.csi-single-item .csi-singleitem-content .price span {
+  color: red;
+}
+
+.csi-post-wrapper header .text-area .subtitle {
+  color: green;
+}
+.csi-post-wrapper header .text-area .hits-area .date a i {
+  color: green;
+}
+
+.csi-post-wrapper footer .title {
+  color: red;
+}
+.csi-post-wrapper footer .csi-share {
+  margin-left: 0;
+}
+.csi-post-wrapper footer .csi-share li a {
+
+  color: red;
+}
+.csi-post-wrapper footer .csi-share li a:hover {
+  background: red;
+}
+.post-navigation .nav-links .nav-previous a,
+.post-navigation .nav-links .nav-next a {
+  background: red;
+}
+.post-navigation .nav-links .nav-previous a:hover,
+.post-navigation .nav-links .nav-next a:hover {
+  background: red;
+}
+aside .widget .widget-title {
+  color: red;
+}
+aside .widget ul li a:hover {
+  color: red;
+}
+aside .widget_tag_cloud .tagcloud a:hover {
+  background: red;
+}
+.search-submit {
+  background: red;
+}
+.search-submit:hover {
+  background: red;
+}
+@media (max-width: 480px) {
+  .csi-tab .nav-pills .active {
+    background: green;
+  }
+}

@@ -1,0 +1,407 @@
+.csi-banner {
+  color: @white-color;
+  position: relative;
+  .csi-inner {
+    padding: 30rem 0;
+  }
+  .csi-inner-df {
+    padding: 29rem 0;
+  }
+  .csi-inner-md {
+    padding: 25rem 0;
+  }
+  .csi-inner-sm {
+    padding: 20rem 0;
+  }
+}
+
+.csi-inner-bannergap {
+  margin-top: -8rem;
+  margin-bottom: -8rem;
+}
+
+
+.csi-banner-wrapper {
+  background-color: #212739;
+
+}
+
+
+.top-count  {
+  position: relative;
+  z-index: 2;
+}
+
+//Banner circle content
+.csi-banner-info-area {
+  display: flex;
+}
+
+.csi-banner-info-circle {
+  .bg-rgba(@white-color, 0.2);
+  border: 15px solid rgba(255, 255, 255, .1);
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+  padding: 1.5rem;
+  border-radius: 50%;
+  margin-right: 5rem;
+  width: 460px;
+  height: 460px;
+
+  .info-circle-inner {
+    .bg-rgba(@black-color, 0.7);
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    .date {
+      font-family: @csi-heading-font;
+      margin-top: 0;
+      padding-top: 5rem;
+      .font-size(220);
+      line-height: 21rem;
+      color: @brand-color3;
+      span {
+        font-family: @csi-base-font;
+        color: @subheading;
+        text-transform: uppercase;
+        .font-size(42);
+        font-weight: 700;
+        display: block;
+        opacity: .8;
+      }
+    }
+  }
+}
+//Banner circle content
+
+
+.vcx-regi-wrapper {
+  display: flex;
+  .vcx-regi-right,
+  .vcx-regi-left {
+    //float: left;
+  }
+  .vcx-regi-left {
+    flex: 1;
+  }
+  .vcx-regi-right {
+    width: 450px;
+  }
+}
+
+
+.csi-banner-content {
+  text-align: left;
+  color: @white-color;
+
+  .csi-subtitle {
+    font-family: @csi-base-font;
+    .font-size(68);
+    line-height: 9rem;
+    font-weight: 300;
+    margin: 0;
+    color: @subheading;
+    letter-spacing: -.05rem;
+  }
+  .csi-title {
+    font-family: @csi-heading-font;
+    .font-size(90);
+    line-height: 9rem;
+    font-weight: 900;
+    margin: 0 0 3rem;
+    text-transform: uppercase;
+    color: @white-color;
+    b {
+      color: @brand-highlight;
+      font-weight: 800;
+    }
+    i {
+      color: @brand-color2;
+      font-weight: 800;
+      font-style: normal;
+    }
+  }
+  .csi-title2 {
+    font-family: @csi-base-font;
+    .font-size(68);
+    line-height: 8rem;
+    font-weight: 900;
+    color: @white-color;
+    text-decoration: underline;
+    margin: 0 0 2.6rem;
+    b {
+      color: @brand-highlight;
+      font-weight: 900;
+    }
+    i {
+      color: @brand-color2;
+      font-weight: 900;
+      font-style: normal;
+    }
+  }
+  .date {
+    font-family: @csi-base-font;
+    .font-size(26);
+    line-height: 2.6rem;
+    font-weight: 300;
+    color: @subheading;
+    b {
+      color: @brand-highlight;
+      font-weight: 800;
+    }
+  }
+
+  .action-area {
+    //display: flex;
+    margin-top: 4.2rem;
+    .csi-btn {
+      margin-right: .8rem;
+    }
+  }
+}
+
+
+.csi-banner-content-center {
+  text-align: left;
+}
+
+.csi-banner-content-center {
+  text-align: center ;
+}
+
+.csi-banner-content-right {
+  text-align: right;
+}
+
+
+/* -----------------------------------------------------------------------
+     Medium devices (desktops, UP TO 1199px~992px)
+ ------------------------------------------------------------------------*/
+@media (max-width : @screen-md-max) {
+  /************** 1199 GLOBAl USE***********/
+  .csi-countdown-area .csi-countdown-area-inner {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+
+  .csi-countdown-area2 {
+    margin-top: -5%;
+    padding: 3rem;
+  }
+
+  .csi-banner {
+    .csi-inner {
+      padding: 25rem 0;
+    }
+    .csi-inner-df {
+      padding: 25rem 0;
+    }
+    .csi-inner-md {
+      padding: 20rem 0;
+    }
+    .csi-inner-sm {
+      padding: 20rem 0;
+    }
+  }
+  /************** 1199 GLOBAl USE END***********/
+
+}
+
+
+#csi-page-coming-soon {
+  .csi-banner{
+    height: 100vh;
+  }
+}
+
+/* ----------------------------------------------------------------------
+     Small devices (tablets, UP TO 991px~768px)
+ -----------------------------------------------------------------------*/
+@media (max-width : @screen-sm-max) {
+  /************** 991 GLOBAl USE***********/
+
+  .csi-banner {
+    .csi-inner {
+      padding: 15rem 0;
+    }
+    .csi-inner-df {
+      padding: 15rem 0;
+    }
+    .csi-inner-md {
+      padding: 15rem 0;
+    }
+    .csi-inner-sm {
+      padding: 15rem 0;
+    }
+  }
+
+  .csi-banner-content .csi-subtitle,
+  .csi-banner-content .csi-title {
+    font-size: 8rem;
+    line-height: 10rem;
+  }
+  .csi-banner-content .csi-title {
+    margin: 0 0 2.6rem;
+  }
+
+  //
+  .csi-banner-content {
+    .csi-subtitle {
+      .font-size(42);
+      line-height: 5rem;
+    }
+    .csi-title {
+      .font-size(68);
+      line-height: 7.5rem;
+      margin: 0 0 2rem;
+    }
+    .csi-title2 {
+      .font-size(50);
+      line-height: 5.5rem;
+      margin: 0 0 2.6rem;
+    }
+    .date {
+      .font-size(26);
+      line-height: 2.6rem;
+    }
+    .action-area {
+      margin-top: 3rem;
+      .csi-btn {
+        margin-right: .8rem;
+      }
+    }
+  }
+
+  .csi-banner-info-area {
+    display: block;
+  }
+  .csi-banner-info-circle {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin-right: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .csi-banner-info-circle .info-circle-inner {
+    background: transparent;
+    text-align: left;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .csi-banner-info-circle .info-circle-inner .date {
+    padding-top: 0;
+  }
+  .csi-banner .vcx-regi-wrapper {
+    display: block;
+  }
+  .csi-banner .vcx-regi-wrapper .vcx-regi-right {
+    width: 100%;
+    margin-top: 6.8rem;
+    display: block;
+  }
+
+  /************** 991 GLOBAl USE END ***********/
+
+}
+
+/* ---------------------------------------------------------------------
+    Extra small devices (phones, less UP TO 767px)
+ ----------------------------------------------------------------------*/
+@media (max-width : @screen-xs-max) {
+  /************** 767 GLOBAl USE***********/
+
+  .csi-banner {
+    .csi-inner {
+      padding: 14rem 0 10rem;
+    }
+    .csi-inner-df {
+      padding: 14rem 0 10rem;
+    }
+    .csi-inner-md {
+      padding: 14rem 0 10rem;
+    }
+    .csi-inner-sm {
+      padding: 14rem 0 10rem;
+    }
+  }
+
+  //
+  .csi-banner-content {
+    .csi-subtitle {
+      .font-size(26);
+      line-height: 3rem;
+    }
+    .csi-title {
+      .font-size(68);
+      line-height: 7.5rem;
+      margin: 0 0 1.5rem;
+    }
+    .csi-title2 {
+      .font-size(42);
+      line-height: 5rem;
+      margin: 0 0 1.5rem;
+    }
+    .date {
+      .font-size(20);
+      line-height: 2.6rem;
+    }
+    .action-area {
+      margin-top: 1.5rem;
+      .csi-btn {
+        margin-right: .4rem;
+      }
+    }
+  }
+
+  .csi-banner-info-circle .info-circle-inner .date {
+    font-size: 6.8rem;
+    line-height: 6rem;
+  }
+  .csi-banner-info-circle .info-circle-inner .date span {
+    display: inline-block;
+  }
+  .csi-banner-info-circle .info-circle-inner .date {
+    margin-bottom: 0;
+  }
+
+  .csi-banner .vcx-regi-wrapper .vcx-regi-right {
+    margin-top: 4.2rem;
+  }
+  /************** 767 GLOBAl USE END***********/
+
+
+}/*767 END*/
+
+
+/* ----------------------------------------------------------------
+      Custom, iPhone Retina  UP TO 480px
+-------------------------------------------------------------------*/
+@media (max-width : 480px) {
+  /************** 480 GLOBAl USE***********/
+
+  .csi-banner {
+    .csi-inner {
+      padding: 12rem 0 9rem;
+    }
+    .csi-inner-df {
+      padding: 12rem 0 9rem;
+    }
+    .csi-inner-md {
+      padding: 12rem 0 9rem;
+    }
+    .csi-inner-sm {
+      padding: 12rem 0 9rem;
+    }
+  }
+
+
+
+
+
+  /************** 480 GLOBAl USE***********/
+
+}
+
+

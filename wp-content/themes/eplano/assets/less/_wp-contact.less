@@ -1,0 +1,281 @@
+.csi-contact {
+  .help-block {
+    color: #e74f3f;
+    margin: 0;
+  }
+}
+
+.csi-contact-white {
+  background: @white-color;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.wpcf7 {
+  label {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  span.wpcf7-not-valid-tip {
+    font-style: italic;
+  }
+  div.wpcf7-validation-errors {
+    border: 2px solid red;
+  }
+  p {
+    margin-bottom: 10px!important;
+  }
+}
+
+
+
+textarea.wpcf7-textarea {
+  height: 170px;
+  margin-bottom: 1.6rem;
+}
+
+
+.wpcf7-submit {
+  /*width: auto;
+  font-family: @csi-heading-font;
+  background: @brand-color;
+  padding: 1rem 4.2rem;
+  color: @white-color;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  border-radius: 0;
+  text-transform: uppercase;
+  .font-size(14);
+  .transition-duration(@duration: 0.3s);
+  letter-spacing: .08rem;
+  -webkit-box-shadow: 0 0 15px 0 rgba(68,67,73,0.20);
+  -moz-box-shadow: 0 0 15px 0 rgba(68,67,73,0.20);
+  box-shadow: 0 0 15px 0 rgba(68,67,73,0.20);
+  border: 0;*/
+  float: right;
+  /*&:hover {
+    background: @brand-highlight;
+    color: @white-color;
+    border-radius: 16px;
+    border: 0;
+    span {
+      display: block;
+      -webkit-backface-visibility: visible !important;
+      backface-visibility: visible !important;
+      -webkit-animation-name: flipInX;
+      animation-name: flipInX;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+      animation-duration: 1000ms;
+      animation-timing-function: linear;
+    }
+  }*/
+}
+
+
+/*.wpcf7-submit {
+  width: auto;
+  font-family: @csi-heading-font;
+  background: @brand-color;
+  padding: 1rem 4.2rem;
+  color: @white-color;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  border-radius: 0;
+  text-transform: uppercase;
+  .font-size(14);
+  .transition-duration(@duration: 0.3s);
+  letter-spacing: .08rem;
+  -webkit-box-shadow: 0 0 15px 0 rgba(68,67,73,0.20);
+  -moz-box-shadow: 0 0 15px 0 rgba(68,67,73,0.20);
+  box-shadow: 0 0 15px 0 rgba(68,67,73,0.20);
+  border: 0;
+  float: right;
+  &:hover {
+    background: @brand-highlight;
+    color: @white-color;
+    border-radius: 16px;
+    border: 0;
+    span {
+      display: block;
+      -webkit-backface-visibility: visible !important;
+      backface-visibility: visible !important;
+      -webkit-animation-name: flipInX;
+      animation-name: flipInX;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+      animation-duration: 1000ms;
+      animation-timing-function: linear;
+    }
+  }
+}*/
+
+
+
+
+// VC Map
+.csi-vc-map {
+  .wpb_gmaps_widget .wpb_wrapper {
+    padding: 0 !important;
+  }
+}
+
+
+// VC Contact
+
+.csi-contact-box {
+  margin-bottom: 2.6rem;
+  .address {
+    .title {
+      color: @brand-color;
+      font-weight: 400;
+      letter-spacing: normal;
+      margin: 0;
+    }
+  }
+
+}
+
+.csi-box {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  .title {
+    font-family: @csi-base-font;
+    color: @white-color;
+    font-weight: 900;
+    letter-spacing: normal;
+    margin-bottom: 10px;
+    margin-top: 0;
+    text-decoration: underline;
+  }
+}
+
+
+.csi-box {
+  .csi-icon {
+    //float: left;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 1rem;
+    i {
+      font-size: 35px;
+      color: @subheading;
+      line-height: 43px;
+      opacity: .5;
+    }
+  }
+  .address {
+    overflow: hidden;
+    p {
+      font-family: @csi-heading-font;
+      .font-size(16);
+      color: @white-color;
+      font-weight: 300;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+
+.csi-contact-form {
+  .csi-contact-inner {
+    .csi-contact-form-inline {
+      display: flex;
+      margin-left: -.5rem;
+      margin-right: -.5rem;
+      .wpcf7-form-control-wrap {
+        flex: 1;
+        margin-left: .5rem;
+        margin-right: .5rem;
+      }
+    }
+    .wpcf7-form-control-wrap {
+      margin-bottom: 2rem;
+
+    }
+  }
+}
+
+
+
+//comments box
+article footer #comments #respond form input,
+article footer #comments #respond form textarea {
+  width: 100% !important;
+}
+
+article footer #comments #respond form {
+  margin-left: -.5rem;
+  margin-right: -.5rem;
+  .comment-form-author,
+  .comment-form-email,
+  .comment-form-url {
+    width: 32.4%;
+    float: left;
+  }
+  p {
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
+}
+
+
+
+
+
+//Responsive
+
+/* ---------------------------------------------------------------------
+    Extra small devices (phones, less UP TO 991px)
+ ----------------------------------------------------------------------*/
+@media (max-width : @screen-sm-max) {
+  article footer #comments #respond form .comment-form-author,
+  article footer #comments #respond form .comment-form-email,
+  article footer #comments #respond form .comment-form-url {
+    width: 32.1%;
+    float: left;
+  }
+}
+
+/* ---------------------------------------------------------------------
+    Extra small devices (phones, less UP TO 767px)
+ ----------------------------------------------------------------------*/
+@media (max-width : @screen-xs-max) {
+  .csi-contact-form {
+    .csi-contact-inner {
+      .csi-contact-form-inline {
+        display: block;
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+  .csi-box {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  article footer #comments #respond form {
+    margin-left: 0;
+    margin-right: 0;
+    .comment-form-author,
+    .comment-form-email,
+    .comment-form-url {
+      width: 100%;
+    }
+    p {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}
+

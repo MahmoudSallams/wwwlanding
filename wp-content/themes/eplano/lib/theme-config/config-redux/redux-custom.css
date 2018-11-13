@@ -1,0 +1,16 @@
+.rAds img{
+    display: none !important;
+}
+
+#redux-header .rAds {
+    display: none !important;
+}
+
+.admin-color-fresh #redux-header, .wp-customizer #redux-header {
+    background: #9c359b;
+    border-color: #f7b205;
+}
+
+.redux-sidebar .redux-group-tab-link-a i {
+    color: #c044be;
+}

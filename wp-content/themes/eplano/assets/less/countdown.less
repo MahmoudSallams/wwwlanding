@@ -1,0 +1,641 @@
+.csi-countdowns {
+  //background: @black-color;
+  .csi-inner {
+    padding: 0;
+  }
+}
+
+
+
+
+// Countdown
+.csi-countdown-area {
+  margin-top: 2.6rem;
+  .csi-countdown {
+    span {
+      text-align: left;
+      font-family: @csi-base-font;
+      .font-size(68);
+      font-weight: 900;
+      display: inline-block;
+      margin-bottom: 0;
+      margin-right: 5rem;
+      letter-spacing: .16rem;
+      position: relative;
+      bottom: 0px;
+      left: -1px;
+      &:last-child {
+        margin-right: 0;
+      }
+      i {
+        min-width: 150px;
+        font-family: @csi-base-font;
+        .font-size(20);
+        color: @white-color;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: normal;
+        font-style: normal;
+        position: absolute;
+        bottom: -16px;
+        left: 5px;
+        text-align: left;
+      }
+    }
+
+    .csi-days {
+      color: @brand-color;
+    }
+    .csi-hr {
+      color: @brand-color2;
+    }
+    .csi-min {
+      color: @brand-color3;
+    }
+    .csi-sec {
+      color: @brand-highlight;
+    }
+  }
+}
+
+.csi-countdown-area-simple_right {
+  text-align: right;
+}
+
+.csi-countdown-area-simple_left {
+  text-align: left;
+}
+
+
+.csi-countdown-area-simple_center {
+  text-align: center;
+}
+
+.csi-countdown-area-circle_right,
+.csi-countdown-area-circle_left,
+.csi-countdown-area-circle_center,
+.csi-countdown-area-squre_left,
+.csi-countdown-area-squre_right,
+.csi-countdown-area-squre_center {
+  width: 100%;
+  //position: absolute;
+  right: 0;
+  bottom: 30px;
+  margin-top: 0;
+
+  .csi-countdown-area-inner {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: block;
+    text-align: right;
+  }
+  .csi-countdown {
+    span {
+      color: @white-color !important;
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+      margin-right: 1.5rem;
+      bottom: 0px;
+      padding-top: 9px;
+      left: auto;
+      text-align: center;
+      letter-spacing: -1px;
+      i {
+        right: -40px;
+        left: auto;
+        bottom: 24px;
+      }
+    }
+
+    .csi-days {
+      .bg-rgba(@brand-color, 0.8);
+      border: 3px solid @brand-color;
+    }
+    .csi-hr {
+      .bg-rgba(@brand-color3, 0.8);
+      border: 3px solid @brand-color3;
+    }
+    .csi-min {
+      .bg-rgba(@brand-color2, 0.8);
+      border: 3px solid @brand-color2;
+    }
+    .csi-sec {
+      .bg-rgba(@brand-highlight, 0.8);
+      border: 3px solid @brand-highlight;
+    }
+  }
+}
+
+.csi-banner .csi-countdown-area-circle_right,
+.csi-banner .csi-countdown-area-circle_left,
+.csi-banner .csi-countdown-area-circle_center,
+.csi-banner .csi-countdown-area-squre_left,
+.csi-banner .csi-countdown-area-squre_right,
+.csi-banner .csi-countdown-area-squre_center {
+  .csi-countdown {
+    .csi-days {
+      .bg-rgba(@brand-color, 0.5);
+      border: 3px solid @brand-color;
+    }
+    .csi-hr {
+      .bg-rgba(@brand-color3, 0.5);
+      border: 3px solid @brand-color3;
+    }
+    .csi-min {
+      .bg-rgba(@brand-color2, 0.5);
+      border: 3px solid @brand-color2;
+    }
+    .csi-sec {
+      .bg-rgba(@brand-highlight, 0.5);
+      border: 3px solid @brand-highlight;
+    }
+  }
+}
+
+.csi-countdown-area-circle_left {
+  .csi-countdown-area-inner {
+    text-align: left;
+  }
+}
+.csi-countdown-area-circle_center {
+  .csi-countdown-area-inner {
+    text-align: center;
+  }
+}
+
+
+
+
+.csi-banner .csi-countdown-area-squre_right,
+.csi-banner .csi-countdown-area-squre_left,
+.csi-banner .csi-countdown-area-squre_center,
+.csi-countdown-area-squre_right,
+.csi-countdown-area-squre_left,
+.csi-countdown-area-squre_center {
+  .bg-rgba(@black-color, .5);
+  bottom: 0;
+  .csi-countdown {
+    span {
+      font-family: @csi-base-font;
+      height: 135px;
+      width: 160px;
+      padding-top: 0;
+      margin-top: -2px;
+      font-weight: 900;
+      i {
+        bottom: 14px;
+      }
+    }
+    .csi-days {
+      .bg-rgba(@brand-color, 1);
+      border: 4px solid rgba(255, 255, 255, .1);
+      -webkit-background-clip: padding-box; /* for Safari */
+      background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    }
+    .csi-hr {
+      .bg-rgba(@brand-color3, 1);
+      border: 4px solid rgba(255, 255, 255, .1);
+      -webkit-background-clip: padding-box; /* for Safari */
+      background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    }
+    .csi-min {
+      .bg-rgba(@brand-color2, 1);
+      border: 4px solid rgba(255, 255, 255, .1);
+      -webkit-background-clip: padding-box; /* for Safari */
+      background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    }
+    .csi-sec {
+      .bg-rgba(@brand-highlight, 1);
+      border: 4px solid rgba(255, 255, 255, .1);
+      -webkit-background-clip: padding-box; /* for Safari */
+      background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    }
+  }
+}
+
+.csi-banner .csi-countdown-area-squre_right,
+.csi-banner .csi-countdown-area-squre_left,
+.csi-banner .csi-countdown-area-squre_center,
+.csi-banner .csi-countdown-area-squre_right,
+.csi-banner .csi-countdown-area-squre_left,
+.csi-banner .csi-countdown-area-squre_center {
+  padding: 2rem 0;
+}
+
+.csi-countdown-area-squre_right,
+.csi-countdown-area-squre_left,
+.csi-countdown-area-squre_center {
+  background: transparent;
+}
+
+
+
+.csi-countdown-area-squre_right {
+  .csi-countdown-area-inner {
+    text-align: right;
+  }
+  .csi-countdown {
+    span {
+      border-radius: 16px;
+    }
+  }
+}
+.csi-countdown-area-squre_left {
+  .csi-countdown-area-inner {
+    text-align: left;
+  }
+  .csi-countdown {
+    span {
+      border-radius: 16px;
+    }
+  }
+}
+
+.csi-countdown-area-squre_center {
+  .csi-countdown-area-inner {
+    text-align: center;
+  }
+  .csi-countdown {
+    span {
+      border-radius: 16px;
+    }
+  }
+}
+
+
+.csi-countdown-style-about {
+  .csi-countdown {
+    span {
+      i {
+        color: @ash-deep-color;
+      }
+    }
+  }
+}
+
+
+.csi-countdown-style-about.csi-countdown-area-circle_right,
+.csi-countdown-style-about.csi-countdown-area-circle_left,
+.csi-countdown-style-about.csi-countdown-area-circle_center,
+.csi-countdown-style-about.csi-countdown-area-squre_left,
+.csi-countdown-style-about.csi-countdown-area-squre_right,
+.csi-countdown-style-about.csi-countdown-area-squre_center {
+  position: static;
+  background: transparent;
+  margin-bottom: 2.6rem;
+  .csi-countdown {
+    span {
+      i {
+        color: @white-color;
+      }
+    }
+  }
+}
+
+.csi-banner .csi-countdown-area-circle_right,
+.csi-banner .csi-countdown-area-circle_left,
+.csi-banner .csi-countdown-area-circle_center,
+.csi-banner .csi-countdown-area-squre_left,
+.csi-banner .csi-countdown-area-squre_right,
+.csi-banner .csi-countdown-area-squre_center {
+  position: absolute;
+}
+
+
+
+.csi-countdown-style-about.csi-countdown-area-circle_right,
+.csi-countdown-style-about.csi-countdown-area-circle_left,
+.csi-countdown-style-about.csi-countdown-area-circle_center {
+  .csi-countdown {
+    .csi-days {
+      .bg-rgba(@brand-color, 0.8);
+    }
+    .csi-hr {
+      .bg-rgba(@brand-color3, 0.8);
+    }
+    .csi-min {
+      .bg-rgba(@brand-color2, 0.8);
+    }
+    .csi-sec {
+      .bg-rgba(@brand-highlight, 0.8);
+    }
+  }
+}
+
+
+
+.csi-countdowns3 {
+  background: url('http://placehold.it/1920x864') top center no-repeat fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  .csi-inner {
+    .bg-rgba(@brand-highlight, 0.8);
+  }
+}
+
+
+.csi-countdown-area3 {
+  text-align: center;
+  #csi-countdown {
+    span {
+      text-align: center;
+      font-family: @csi-heading-font;
+      .font-size(42);
+      font-weight: 700;
+      display: inline-block;
+      margin-right: 2rem;
+      letter-spacing: .16rem;
+      .bg-rgba(@black-color, 0.7);
+      padding: 2rem 5rem;
+      border-radius: 6px;
+    }
+    i {
+      font-family: @csi-base-font;
+      .font-size(16);
+      color: @white-color;
+      margin-right: 1rem;
+      text-transform: uppercase;
+      font-weight: 400;
+      letter-spacing: normal;
+      display: block;
+      font-style: normal;
+    }
+    .csi-days {
+      color: #fff200;
+    }
+    .csi-hr {
+      color: #ff8a00;
+    }
+    .csi-min {
+      color: #00b9ff;
+    }
+    .csi-sec {
+      color: #8dc63f;
+    }
+  }
+}
+
+
+// Countdown
+
+
+.csi-count-banner-bottom {
+  margin-top: -10rem;
+}
+
+
+
+/* -----------------------------------------------------------------------
+     Medium devices (desktops, UP TO 1199px~992px)
+ ------------------------------------------------------------------------*/
+@media (max-width : @screen-md-max) {
+  /************** 1199 GLOBAl USE***********/
+  .csi-countdown-area2 {
+    margin-top: 0;
+    padding: 3rem;
+  }
+
+  .csi-count-banner-bottom {
+    margin-top: -6.8rem;
+  }
+
+  /************** 1199 GLOBAl USE END***********/
+
+}
+
+/* ----------------------------------------------------------------------
+     Small devices (tablets, UP TO 991px~768px)
+ -----------------------------------------------------------------------*/
+@media (max-width : @screen-sm-max) {
+  /************** 991 GLOBAl USE***********/
+  .csi-count-banner-bottom {
+    margin-top: 0;
+  }
+
+  .csi-banner .csi-countdown-area-circle_right,
+  .csi-banner .csi-countdown-area-circle_left,
+  .csi-banner .csi-countdown-area-circle_center,
+  .csi-banner .csi-countdown-area-squre_left,
+  .csi-banner .csi-countdown-area-squre_right,
+  .csi-banner .csi-countdown-area-squre_center
+  .csi-countdown-area-circle_right,
+  .csi-countdown-area-circle_left,
+  .csi-countdown-area-circle_center,
+  .csi-countdown-area-squre_left,
+  .csi-countdown-area-squre_right,
+  .csi-countdown-area-squre_center {
+    right: 0;
+    bottom: 30px;
+    margin-top: 0;
+
+    .csi-countdown-area-inner {
+    }
+    .csi-countdown {
+      span {
+        height: auto;
+        width: auto;
+        margin-right: 1.5rem;
+        i {
+          position: static;
+          color: @black-color;
+        }
+      }
+
+      .csi-days {
+        color: @brand-color !important;
+        background: transparent;
+        border: none;
+      }
+      .csi-hr {
+        color: @brand-color2 !important;
+        background: transparent;
+        border: none;
+      }
+      .csi-min {
+        color: @brand-color3 !important;
+        background: transparent;
+        border: none;
+      }
+      .csi-sec {
+        color: @brand-highlight !important;
+        background: transparent;
+        border: none;
+      }
+    }
+  }
+
+  .csi-banner .csi-countdown-area-circle_right,
+  .csi-banner .csi-countdown-area-circle_left,
+  .csi-banner .csi-countdown-area-circle_center,
+  .csi-banner .csi-countdown-area-squre_left,
+  .csi-banner .csi-countdown-area-squre_right,
+  .csi-banner .csi-countdown-area-squre_center {
+    bottom: 0;
+    padding: .5rem 0;
+    .csi-countdown {
+      span {
+        margin-right: 0 !important;
+        i {
+          position: static;
+          color: @white-color;
+        }
+      }
+
+    }
+  }
+
+}
+
+@media (max-width : @screen-xs-max) {
+  /************** 767 GLOBAl USE***********/
+
+  .csi-countdown-area {
+    bottom: 20px;
+    #csi-countdown {
+      span {
+        margin-right: 3rem;
+        .font-size(42);
+        padding: .1rem 1rem;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+      i {
+        .font-size(14);
+        right: -80px;
+      }
+    }
+  }
+
+
+
+  .csi-countdown-area .csi-countdown-area-inner {
+    //text-align: center;
+  }
+
+  .csi-countdown-area2 {
+    #csi-countdown {
+      span {
+        padding: 2rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  .csi-countdown-area3 {
+    #csi-countdown {
+      span {
+        padding: 2rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  /*.csi-countdown-area-left {
+    #csi-countdown {
+      span {
+        padding: 2rem;
+      }
+    }
+  }*/
+
+
+  /************** 767 GLOBAl USE END***********/
+}/*767 END*/
+
+
+/* ----------------------------------------------------------------
+      Custom, iPhone Retina  UP TO 480px
+-------------------------------------------------------------------*/
+@media (max-width : 480px) {
+  /************** 480 GLOBAl USE***********/
+
+  .csi-banner-content .csi-subtitle,
+  .csi-banner-content .csi-title {
+    font-size: 4.2rem;
+    line-height: 5rem;
+  }
+  .csi-banner-content .date {
+    font-size: 2rem;
+  }
+  .csi-banner-content .csi-title {
+    margin: 0 0 1rem;
+  }
+  .csi-banner .csi-inner {
+    padding: 12rem 0;
+  }
+
+
+  .csi-countdown-area {
+    bottom: 8px;
+    #csi-countdown {
+      span {
+        .font-size(30);
+        margin-right: 0;
+        i {
+          bottom: 75px;
+          right: -60px;
+          position: static;
+        }
+      }
+    }
+  }
+
+  .csi-countdown-area2 {
+    #csi-countdown {
+      span {
+        .font-size(2.6);
+        padding: 1rem .5rem;
+        margin-right: 0;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  .csi-countdown-area .csi-countdown-area-inner {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .csi-countdown-area-left {
+    bottom: 22px;
+    #csi-countdown {
+      span {
+        .font-size(22);
+        padding: .1rem 1rem !important;
+        margin-right: 2rem;
+        i {
+          bottom: 70px;
+          right: -80px;
+          position: absolute;
+        }
+      }
+    }
+  }
+
+  .csi-banner .csi-countdown-area-circle_right,
+  .csi-banner .csi-countdown-area-circle_left,
+  .csi-banner .csi-countdown-area-circle_center,
+  .csi-banner .csi-countdown-area-squre_left,
+  .csi-banner .csi-countdown-area-squre_right,
+  .csi-banner .csi-countdown-area-squre_center {
+    bottom: 0;
+    padding: .5rem 0;
+    .csi-countdown {
+      span {
+        letter-spacing: 1px;
+        margin-right: 0 !important;
+      }
+
+    }
+  }
+
+
+
+  /************** 480 GLOBAl USE***********/
+
+}
